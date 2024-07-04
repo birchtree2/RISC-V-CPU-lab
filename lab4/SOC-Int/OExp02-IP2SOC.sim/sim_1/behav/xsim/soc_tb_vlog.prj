@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../OExp02-IP2SOC.srcs/sources_1/new" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/ROM/sim/ROM.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/RAM_B/sim/RAM_B.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v" \
+"../../../../OExp02-IP2SOC.srcs/sim_1/imports/new/soc_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

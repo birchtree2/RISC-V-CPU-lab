@@ -1,0 +1,68 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.gen/sources_1/ip/ROM/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/sim/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/Counter_x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_x
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/new/DisplaySync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dispsync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Ex_reg_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ex_reg_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/VGA/Hex2Ascii.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hex2Ascii
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/ID_reg_Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_reg_Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/IF_reg_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_reg_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/new/MC_14495.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MC_14495
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/MIO_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIO_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Mem_reg_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_reg_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/Multi_8CH32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multi_8CH32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/SAnti_jitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SAnti_jitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/SPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/new/Seg7_Dev.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_Dev
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/VGA/VGA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/VGA/VgaController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VgaController
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/VGA/VgaDebugger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VgaDebugger
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/VGA/VgaDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VgaDisplay
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/new/CSSTE_pipline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/new/Pipeline_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module socTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sources_1/new/stall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stall
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab5/SOC-stall/OExp02-IP2SOC.srcs/sim_1/imports/new/soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_tb

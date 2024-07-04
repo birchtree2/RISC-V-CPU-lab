@@ -1,0 +1,1605 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Apr 18 18:48:16 2024
+# Process ID: 30232
+# Current directory: D:/ZJUlesson/24Spring/CO/lab4/SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16856 D:\ZJUlesson\24Spring\CO\lab4\SOC\OExp02-IP2SOC.xpr
+# Log file: D:/ZJUlesson/24Spring/CO/lab4/SOC/vivado.log
+# Journal file: D:/ZJUlesson/24Spring/CO/lab4/SOC\vivado.jou
+# Running On: LAPTOP-24U2CQ3S, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16892 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC' since last save.
+WARNING: [Project 1-312] File not found as 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf'; using path 'D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf'; using path 'D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf' instead.
+WARNING: [Project 1-312] File not found as 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf'; using path 'D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/IPcore/Seg7_Dev'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/IPcore/VGA'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1521.793 ; gain = 392.574
+update_compile_order -fileset sources_1
+add_files -norecurse {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Reg32.v D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v}
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/RAM_B.v D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/RAM_B.edf}]
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe' provided. It will be converted relative to IP Instance files '../../../../D_mem.coe'
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+can't use empty string as operand of "/"
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name RAM_B
+set_property -dict [list \
+  CONFIG.Byte_Size {8} \
+  CONFIG.Coe_File {D:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe} \
+  CONFIG.Enable_A {Always_Enabled} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Use_Byte_Write_Enable {true} \
+  CONFIG.Write_Depth_A {1024} \
+  CONFIG.Write_Width_A {32} \
+] [get_ips RAM_B]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe' provided. It will be converted relative to IP Instance files '../../../../D_mem.coe'
+generate_target {instantiation_template} [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'RAM_B'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'RAM_B'...
+catch { config_ip_cache -export [get_ips -all RAM_B] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: RAM_B
+export_ip_user_files -of_objects [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+launch_runs RAM_B_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: RAM_B
+[Thu Apr 18 18:59:03 2024] Launched RAM_B_synth_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/RAM_B_synth_1/runme.log
+export_simulation -of_objects [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ROM'...
+catch { config_ip_cache -export [get_ips -all ROM] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ROM
+export_ip_user_files -of_objects [get_files D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci] -no_script -sync -force -quiet
+reset_run ROM_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1
+
+launch_runs ROM_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ROM
+[Thu Apr 18 18:59:48 2024] Launched ROM_synth_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1/runme.log
+export_simulation -of_objects [get_files D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci] -directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp with file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/CSSTE.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 18 19:00:04 2024] Launched ROM_synth_1, synth_1...
+Run output will be captured here:
+ROM_synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1/runme.log
+synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/runme.log
+[Thu Apr 18 19:00:04 2024] Launched impl_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3002:microblaze' GDB server: 
+Warning: Cannot create '3003:microblaze64' GDB server: 
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-23:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1644.527 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B180D6A
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_target all [get_files  D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci]
+export_ip_user_files -of_objects  [get_files  D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset ROM] D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1
+
+INFO: [Project 1-386] Moving file 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci' from fileset 'ROM' to fileset 'sources_1'.
+generate_target all [get_files  D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ROM'...
+catch { config_ip_cache -export [get_ips -all ROM] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ROM
+export_ip_user_files -of_objects [get_files D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci]
+launch_runs ROM_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ROM
+[Thu Apr 18 19:15:02 2024] Launched ROM_synth_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1/runme.log
+export_simulation -of_objects [get_files D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci] -directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_target all [get_files  d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+export_ip_user_files -of_objects  [get_files  d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset RAM_B] d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/RAM_B_synth_1
+
+INFO: [Project 1-386] Moving file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci' from fileset 'RAM_B' to fileset 'sources_1'.
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'RAM_B'...
+catch { config_ip_cache -export [get_ips -all RAM_B] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: RAM_B
+export_ip_user_files -of_objects [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+launch_runs RAM_B_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: RAM_B
+[Thu Apr 18 19:15:14 2024] Launched RAM_B_synth_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/RAM_B_synth_1/runme.log
+export_simulation -of_objects [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp with file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/CSSTE.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 18 19:15:25 2024] Launched ROM_synth_1, RAM_B_synth_1, synth_1...
+Run output will be captured here:
+ROM_synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1/runme.log
+RAM_B_synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/RAM_B_synth_1/runme.log
+synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/runme.log
+[Thu Apr 18 19:15:26 2024] Launched impl_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3002:microblaze' GDB server: 
+Warning: Cannot create '3003:microblaze64' GDB server: 
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-23:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B180D6A
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+set_property CONFIG.coefficient_file {d:/ZJUlesson/24Spring/CO/lab4/SOC/I_mem_more.coe} [get_ips ROM]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/I_mem_more.coe' provided. It will be converted relative to IP Instance files '../../../../I_mem_more.coe'
+generate_target all [get_files  D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ROM'...
+catch { config_ip_cache -export [get_ips -all ROM] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ROM
+export_ip_user_files -of_objects [get_files D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci] -no_script -sync -force -quiet
+reset_run ROM_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1
+
+launch_runs ROM_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ROM
+[Thu Apr 18 19:44:30 2024] Launched ROM_synth_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1/runme.log
+export_simulation -of_objects [get_files D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/ROM/ROM.xci] -directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp with file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/CSSTE.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 18 19:44:35 2024] Launched ROM_synth_1, synth_1...
+Run output will be captured here:
+ROM_synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/ROM_synth_1/runme.log
+synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/runme.log
+[Thu Apr 18 19:44:35 2024] Launched impl_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/runme.log
+synth_design -top CSSTE -part xc7a100tcsg324-1 -lint 
+Command: synth_design -top CSSTE -part xc7a100tcsg324-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-11241] undeclared symbol 'SEG_PEN', assumed default net type 'wire' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:94]
+INFO: [Synth 8-11241] undeclared symbol 'seg_clk', assumed default net type 'wire' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:101]
+INFO: [Synth 8-11241] undeclared symbol 'seg_clrn', assumed default net type 'wire' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:102]
+INFO: [Synth 8-11241] undeclared symbol 'seg_sout', assumed default net type 'wire' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:103]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2502.496 ; gain = 401.051
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'CSSTE' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:2]
+INFO: [Synth 8-6157] synthesizing module 'SCPU' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SCPU_ctrl' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v:17]
+INFO: [Synth 8-226] default block is never used [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v:66]
+INFO: [Synth 8-226] default block is never used [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v:84]
+WARNING: [Synth 8-3848] Net CPU_MIO in module/entity SCPU_ctrl does not have driver. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'SCPU_ctrl' (1#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v:17]
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v:16]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (2#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Reg32' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Reg32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Reg32' (3#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Reg32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Regfile' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Regfile' (4#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (5#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (6#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'SCPU' (7#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.v:23]
+WARNING: [Synth 8-7071] port 'CPU_MIO' of module 'SCPU' is unconnected for instance 'U1' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:115]
+WARNING: [Synth 8-7023] instance 'U1' of module 'SCPU' has 10 connections declared, but only 9 given [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:115]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [D:/ZJUlesson/24Spring/CO/lab4/SOC/.Xil/Vivado-30232-LAPTOP-24U2CQ3S/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (8#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/.Xil/Vivado-30232-LAPTOP-24U2CQ3S/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RAM_B' [D:/ZJUlesson/24Spring/CO/lab4/SOC/.Xil/Vivado-30232-LAPTOP-24U2CQ3S/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM_B' (9#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/.Xil/Vivado-30232-LAPTOP-24U2CQ3S/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'MIO_BUS' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/MIO_BUS.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Multi_8CH32' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Multi_8CH32.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_Dev' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dispsync' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dispsync' (10#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MC_14495' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v:23]
+INFO: [Synth 8-6157] synthesizing module 'INV' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76256]
+INFO: [Synth 8-6155] done synthesizing module 'INV' (11#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76256]
+INFO: [Synth 8-6157] synthesizing module 'AND4' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:569]
+INFO: [Synth 8-6155] done synthesizing module 'AND4' (12#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:569]
+INFO: [Synth 8-6157] synthesizing module 'OR4' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95090]
+INFO: [Synth 8-6155] done synthesizing module 'OR4' (13#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95090]
+INFO: [Synth 8-6157] synthesizing module 'AND3' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:521]
+INFO: [Synth 8-6155] done synthesizing module 'AND3' (14#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:521]
+INFO: [Synth 8-6157] synthesizing module 'OR3' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95042]
+INFO: [Synth 8-6155] done synthesizing module 'OR3' (15#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95042]
+INFO: [Synth 8-6157] synthesizing module 'AND2' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'AND2' (16#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:473]
+INFO: [Synth 8-6157] synthesizing module 'OR2' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:94996]
+INFO: [Synth 8-6155] done synthesizing module 'OR2' (17#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:94996]
+INFO: [Synth 8-6155] done synthesizing module 'MC_14495' (18#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_Dev' (19#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SPIO' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SPIO.v:15]
+WARNING: [Synth 8-7071] port 'GPIOf0' of module 'SPIO' is unconnected for instance 'U7' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:188]
+WARNING: [Synth 8-7023] instance 'U7' of module 'SPIO' has 12 connections declared, but only 11 given [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:188]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/clk_div.v:15]
+INFO: [Synth 8-6157] synthesizing module 'SAnti_jitter' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SAnti_jitter.v:15]
+WARNING: [Synth 8-7071] port 'Key_x' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7071] port 'Key_out' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7071] port 'Key_ready' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7071] port 'pulse_out' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7071] port 'CR' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7023] instance 'U9' of module 'SAnti_jitter' has 13 connections declared, but only 8 given [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+INFO: [Synth 8-6157] synthesizing module 'Counter_x' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Counter_x.v:15]
+INFO: [Synth 8-6157] synthesizing module 'VGA' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/VGA.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'CSSTE' (20#1) [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2604.434 ; gain = 502.988
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Thu Apr 18 19:56:18 2024
+| Host         : LAPTOP-24U2CQ3S running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+--------------+----------+
+| Rule ID   | # Violations | # Waived |
++-----------+--------------+----------+
+| ASSIGN-5  | 9            | 0        |
+| ASSIGN-6  | 9            | 0        |
+| ASSIGN-9  | 2            | 0        |
+| ASSIGN-10 | 2            | 0        |
+| INFER-1   | 1            | 0        |
++-----------+--------------+----------+
+
+
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'SEG_PEN' declared and are not set.
+RTL Name 'SEG_PEN', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 94.
+WARNING: [Synth 37-87] [ASSIGN-5]All bits in array 'U4_ram_data_out' are not set. First unset bit index is 0. 
+RTL Name 'U4_ram_data_out', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 114.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'U6_SEG_PEN' declared and are not set.
+RTL Name 'U6_SEG_PEN', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 47.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'U6_seg_clk' declared and are not set.
+RTL Name 'U6_seg_clk', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 48.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'U6_seg_clrn' declared and are not set.
+RTL Name 'U6_seg_clrn', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 49.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'U6_seg_sout' declared and are not set.
+RTL Name 'U6_seg_sout', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 50.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'seg_clk' declared and are not set.
+RTL Name 'seg_clk', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 101.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'seg_clrn' declared and are not set.
+RTL Name 'seg_clrn', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 102.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'seg_sout' declared and are not set.
+RTL Name 'seg_sout', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 103.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'BTN_OK0_Dout' was assigned but not read. 
+RTL Name 'BTN_OK0_Dout', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 25.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'SEG_PEN' was assigned but not read. 
+RTL Name 'SEG_PEN', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 94.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'div25_Dout' was assigned but not read. 
+RTL Name 'div25_Dout', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 73.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'seg_clk' was assigned but not read. 
+RTL Name 'seg_clk', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 101.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'seg_clrn' was assigned but not read. 
+RTL Name 'seg_clrn', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 102.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'seg_sout' was assigned but not read. 
+RTL Name 'seg_sout', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 103.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'sw0_Dout' was assigned but not read. 
+RTL Name 'sw0_Dout', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 78.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'xlslice_0_Dout' was assigned but not read. 
+RTL Name 'xlslice_0_Dout', Hierarchy 'CSSTE', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v', Line 85.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'ALU_zero' was assigned but not read. 
+RTL Name 'ALU_zero', Hierarchy 'DataPath', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v', Line 33.
+WARNING: [Synth 37-88] [INFER-1]Inferred latch found for PC_in_reg. 
+RTL Name 'PC_in_reg', Hierarchy 'DataPath', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v', Line 51.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'inst_field' are not read. First unused bit index is 0. 
+RTL Name 'inst_field', Hierarchy 'ImmGen', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v', Line 26.
+WARNING: [Synth 37-101] [ASSIGN-9]All bits in IO 'CPU_MIO' are not set. First unset bit index is 0. 
+RTL Name 'CPU_MIO', Hierarchy 'SCPU', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.v', Line 29.
+WARNING: [Synth 37-101] [ASSIGN-9]All bits in IO 'CPU_MIO' are not set. First unset bit index is 0. 
+RTL Name 'CPU_MIO', Hierarchy 'SCPU_ctrl', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v', Line 32.
+WARNING: [Synth 37-102] [ASSIGN-10]All bits in IO 'MIO_ready' are not read. First unused bit index is 0. 
+RTL Name 'MIO_ready', Hierarchy 'SCPU_ctrl', File 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v', Line 20.
+INFO: [Synth 37-85] Total of 23 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/MIO_BUS.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/MIO_BUS.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Multi_8CH32.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Multi_8CH32.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SPIO.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SPIO.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/clk_div.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/clk_div.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SAnti_jitter.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SAnti_jitter.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Counter_x.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Counter_x.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/VGA.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/VGA.edf]
+INFO: [Project 1-454] Reading design checkpoint 'd:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/ROM/ROM.dcp' for cell 'U2'
+INFO: [Project 1-454] Reading design checkpoint 'd:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B.dcp' for cell 'U3'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2604.434 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 786 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 22 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 22 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[0]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[1]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[2]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[3]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[4]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[5]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[6]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[7]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[8]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[9]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[10]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[11]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[12]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[13]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[14]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[15]'. [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:38]
+Finished Parsing XDC File [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/CSSTE_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2694.465 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+67 Infos, 51 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2694.465 ; gain = 960.164
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp with file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/CSSTE.dcp
+launch_runs synth_1 -jobs 8
+[Thu Apr 18 19:57:24 2024] Launched synth_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Thu Apr 18 20:00:42 2024] Launched impl_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 18 20:02:18 2024] Launched impl_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3002:microblaze' GDB server: 
+Warning: Cannot create '3003:microblaze64' GDB server: 
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-23:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B180D6A
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 18 20:15:29 2024] Launched impl_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3002:microblaze' GDB server: 
+Warning: Cannot create '3003:microblaze64' GDB server: 
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-23:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B180D6A
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+import_files -norecurse D:/ZJUlesson/24Spring/CO/lab4/lab4-0/lab4-0.srcs/sources_1/new/socTest.v
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe' provided. It will be converted relative to IP Instance files '../../../../D_mem.coe'
+set_property CONFIG.Coe_File {D:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe} [get_ips RAM_B]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe' provided. It will be converted relative to IP Instance files '../../../../D_mem.coe'
+set_property top socTest [current_fileset]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse D:/ZJUlesson/24Spring/CO/lab4/lab4-0/lab4-0.srcs/sim_1/new/soc_tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CSSTE'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CSSTE' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/RAM_B.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem_more.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CSSTE_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/sim/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/ROM/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Counter_x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_x
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dispsync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MC_14495
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/MIO_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIO_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Multi_8CH32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multi_8CH32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Reg32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SAnti_jitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SAnti_jitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_Dev
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/VGA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_6 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CSSTE_behav xil_defaultlib.CSSTE xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_6 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CSSTE_behav xil_defaultlib.CSSTE xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wea' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:134]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SCPU_ctrl
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Reg32
+Compiling module xil_defaultlib.Regfile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.SCPU
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.ROM
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="art...
+Compiling module xil_defaultlib.RAM_B
+Compiling module xil_defaultlib.MIO_BUS
+Compiling module xil_defaultlib.Multi_8CH32
+Compiling module xil_defaultlib.dispsync
+Compiling module unisims_ver.INV
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.OR4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.OR3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.OR2
+Compiling module xil_defaultlib.MC_14495
+Compiling module xil_defaultlib.Seg7_Dev
+Compiling module xil_defaultlib.SPIO
+Compiling module xil_defaultlib.clk_div
+Compiling module xil_defaultlib.SAnti_jitter
+Compiling module xil_defaultlib.Counter_x
+Compiling module xil_defaultlib.VGA
+Compiling module xil_defaultlib.CSSTE
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CSSTE_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CSSTE_behav -key {Behavioral:sim_1:Functional:CSSTE} -tclbatch {CSSTE.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CSSTE.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module CSSTE.U3.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CSSTE_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 2694.465 ; gain = 0.000
+set_property top soc_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/RAM_B.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem_more.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module socTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sim_1/imports/new/soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wea' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v:54]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SCPU_ctrl
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Reg32
+Compiling module xil_defaultlib.Regfile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.SCPU
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="art...
+Compiling module xil_defaultlib.RAM_B
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.socTest
+Compiling module xil_defaultlib.soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot soc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_tb.uut.u1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3562.977 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/OPcode}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/ALUop}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/Fun3}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/Fun7}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/MIO_ready}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/ImmSel}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/ALUSrc_B}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/MemtoReg}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/Jump}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/Branch}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/BranchN}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/RegWrite}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/MemRW}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/ALU_Control}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U1/CPU_MIO}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U2/Reg/register}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U2/PC_next}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U2/PC_out}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/soc_tb/uut/u0/U2/inst_field}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/RAM_B.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem_more.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wea' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v:54]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_tb.uut.u1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+save_wave_config {D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg
+set_property xsim.view D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe' provided. It will be converted relative to IP Instance files '../../../../D_mem.coe'
+set_property CONFIG.Coe_File {D:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe} [get_ips RAM_B]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/D_mem.coe' provided. It will be converted relative to IP Instance files '../../../../D_mem.coe'
+reset_target all [get_files  d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+export_ip_user_files -of_objects  [get_files  d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset RAM_B] d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/RAM_B_synth_1
+
+INFO: [Project 1-386] Moving file 'd:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci' from fileset 'RAM_B' to fileset 'sources_1'.
+generate_target all [get_files  d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'RAM_B'...
+catch { config_ip_cache -export [get_ips -all RAM_B] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: RAM_B
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 3d76af226ad8834c to dir: d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/ip/2023.1/3/d/3d76af226ad8834c/RAM_B.dcp to d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/ip/2023.1/3/d/3d76af226ad8834c/RAM_B_sim_netlist.v to d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/ip/2023.1/3/d/3d76af226ad8834c/RAM_B_sim_netlist.vhdl to d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/ip/2023.1/3/d/3d76af226ad8834c/RAM_B_stub.v to d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/ip/2023.1/3/d/3d76af226ad8834c/RAM_B_stub.vhdl to d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/RAM_B_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP RAM_B, cache-ID = 3d76af226ad8834c; cache size = 0.956 MB.
+export_ip_user_files -of_objects [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci'
+export_simulation -of_objects [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/RAM_B.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem_more.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/ROM/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/sim/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Reg32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module socTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sim_1/imports/new/soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wea' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v:54]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SCPU_ctrl
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Reg32
+Compiling module xil_defaultlib.Regfile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.SCPU
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="art...
+Compiling module xil_defaultlib.RAM_B
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.socTest
+Compiling module xil_defaultlib.soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot soc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -view {D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_tb.uut.u1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3562.977 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/RAM_B.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem_more.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wea' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v:54]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -view {D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_tb.uut.u1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3562.977 ; gain = 0.000
+current_wave_config {soc_tb_behav.wcfg}
+soc_tb_behav.wcfg
+add_wave {{/soc_tb/uut/u0/Data_in}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wea' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v:54]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_tb.uut.u1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {soc_tb_behav.wcfg}
+soc_tb_behav.wcfg
+add_wave {{/soc_tb/uut/u0/Addr_out}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wea' [D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v:54]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_tb.uut.u1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+save_wave_config {D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list \
+  CONFIG.Register_PortA_Output_of_Memory_Primitives {false} \
+  CONFIG.Use_Byte_Write_Enable {false} \
+] [get_ips RAM_B]
+generate_target all [get_files  d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'RAM_B'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'RAM_B'...
+catch { config_ip_cache -export [get_ips -all RAM_B] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: RAM_B
+export_ip_user_files -of_objects [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci]
+launch_runs RAM_B_synth_1 -jobs 8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: RAM_B
+[Thu Apr 18 20:49:31 2024] Launched RAM_B_synth_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/RAM_B_synth_1/runme.log
+export_simulation -of_objects [get_files d:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/ip/RAM_B/RAM_B.xci] -directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp with file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/CSSTE.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 18 20:49:39 2024] Launched RAM_B_synth_1, synth_1...
+Run output will be captured here:
+RAM_B_synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/RAM_B_synth_1/runme.log
+synth_1: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/runme.log
+[Thu Apr 18 20:49:39 2024] Launched impl_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/RAM_B.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem_more.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/ROM/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.gen/sources_1/ip/RAM_B/sim/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Reg32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module socTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/sim_1/imports/new/soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SCPU_ctrl
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Reg32
+Compiling module xil_defaultlib.Regfile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.SCPU
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_output_stage(...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_6.blk_mem_gen_v8_4_6(C_FAMILY="art...
+Compiling module xil_defaultlib.RAM_B
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.socTest
+Compiling module xil_defaultlib.soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot soc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -view {D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_tb.uut.u1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3562.977 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Xilinx/Vivado/2023.1/data/xsim/xsim.ini' copied to run dir:'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/RAM_B.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem_more.coe'
+INFO: [SIM-utils-43] Exported 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj soc_tb_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L blk_mem_gen_v8_4_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -view {D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module soc_tb.uut.u1.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+save_wave_config {D:/ZJUlesson/24Spring/CO/lab4/SOC/soc_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top CSSTE [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp with file D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/socTest.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Apr 18 20:54:28 2024] Launched synth_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/synth_1/runme.log
+[Thu Apr 18 20:54:28 2024] Launched impl_1...
+Run output will be captured here: D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3002:microblaze' GDB server: 
+Warning: Cannot create '3003:microblaze64' GDB server: 
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-23:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B180D6A
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B180D6A
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 18 22:46:34 2024...

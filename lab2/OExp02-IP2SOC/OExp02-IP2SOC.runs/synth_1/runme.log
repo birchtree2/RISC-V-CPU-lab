@@ -1,0 +1,352 @@
+
+*** Running vivado
+    with args -log CSSTE.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSSTE.tcl
+
+
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source CSSTE.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/IPcore/Seg7_Dev'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/IPcore/VGA'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2023.1/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/utils_1/imports/synth_1/CSSTE.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top CSSTE -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 35260
+INFO: [Synth 8-11241] undeclared symbol 'SEG_PEN', assumed default net type 'wire' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:94]
+INFO: [Synth 8-11241] undeclared symbol 'seg_clk', assumed default net type 'wire' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:101]
+INFO: [Synth 8-11241] undeclared symbol 'seg_clrn', assumed default net type 'wire' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:102]
+INFO: [Synth 8-11241] undeclared symbol 'seg_sout', assumed default net type 'wire' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:103]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1299.559 ; gain = 412.492
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CSSTE' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:2]
+INFO: [Synth 8-6157] synthesizing module 'SCPU' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.v:15]
+WARNING: [Synth 8-7071] port 'CPU_MIO' of module 'SCPU' is unconnected for instance 'U1' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:115]
+WARNING: [Synth 8-7023] instance 'U1' of module 'SCPU' has 10 connections declared, but only 9 given [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:115]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-3704-LAPTOP-24U2CQ3S/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (0#1) [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-3704-LAPTOP-24U2CQ3S/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RAM_B' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/RAM_B.v:15]
+INFO: [Synth 8-6157] synthesizing module 'MIO_BUS' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/MIO_BUS.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Multi_8CH32' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Multi_8CH32.v:15]
+INFO: [Synth 8-6157] synthesizing module 'Seg7_Dev' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dispsync' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dispsync' (0#1) [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MC_14495' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v:23]
+INFO: [Synth 8-6157] synthesizing module 'INV' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76256]
+INFO: [Synth 8-6155] done synthesizing module 'INV' (0#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:76256]
+INFO: [Synth 8-6157] synthesizing module 'AND4' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:569]
+INFO: [Synth 8-6155] done synthesizing module 'AND4' (0#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:569]
+INFO: [Synth 8-6157] synthesizing module 'OR4' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95090]
+INFO: [Synth 8-6155] done synthesizing module 'OR4' (0#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95090]
+INFO: [Synth 8-6157] synthesizing module 'AND3' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:521]
+INFO: [Synth 8-6155] done synthesizing module 'AND3' (0#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:521]
+INFO: [Synth 8-6157] synthesizing module 'OR3' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95042]
+INFO: [Synth 8-6155] done synthesizing module 'OR3' (0#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:95042]
+INFO: [Synth 8-6157] synthesizing module 'AND2' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'AND2' (0#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:473]
+INFO: [Synth 8-6157] synthesizing module 'OR2' [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:94996]
+INFO: [Synth 8-6155] done synthesizing module 'OR2' (0#1) [E:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:94996]
+INFO: [Synth 8-6155] done synthesizing module 'MC_14495' (0#1) [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Seg7_Dev' (0#1) [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SPIO' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SPIO.v:15]
+WARNING: [Synth 8-7071] port 'GPIOf0' of module 'SPIO' is unconnected for instance 'U7' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:188]
+WARNING: [Synth 8-7023] instance 'U7' of module 'SPIO' has 12 connections declared, but only 11 given [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:188]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/clk_div.v:15]
+INFO: [Synth 8-6157] synthesizing module 'SAnti_jitter' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SAnti_jitter.v:15]
+WARNING: [Synth 8-7071] port 'Key_x' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7071] port 'Key_out' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7071] port 'Key_ready' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7071] port 'pulse_out' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7071] port 'CR' of module 'SAnti_jitter' is unconnected for instance 'U9' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+WARNING: [Synth 8-7023] instance 'U9' of module 'SAnti_jitter' has 13 connections declared, but only 8 given [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:208]
+INFO: [Synth 8-6157] synthesizing module 'Counter_x' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Counter_x.v:15]
+INFO: [Synth 8-6157] synthesizing module 'VGA' [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/VGA.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'CSSTE' (0#1) [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1390.531 ; gain = 503.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1390.531 ; gain = 503.465
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1390.531 ; gain = 503.465
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1390.531 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.gen/sources_1/ip/ROM/ROM/ROM_in_context.xdc] for cell 'U2'
+Finished Parsing XDC File [d:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.gen/sources_1/ip/ROM/ROM/ROM_in_context.xdc] for cell 'U2'
+Parsing XDC File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[0]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[1]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[2]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[3]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[4]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[5]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[6]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[7]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[8]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[9]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[10]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[11]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[12]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[13]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[14]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'LED_out[15]'. [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc:38]
+Finished Parsing XDC File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/CSSTE_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/A7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CSSTE_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CSSTE_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1475.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  AND2 => LUT2: 1 instance 
+  AND3 => LUT3: 11 instances
+  AND4 => LUT4: 9 instances
+  INV => LUT1: 5 instances
+  OR2 => LUT2: 7 instances
+  OR3 => LUT3: 3 instances
+  OR4 => LUT4: 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1475.602 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U2. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input    8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |SCPU          |         1|
+|2     |ROM           |         1|
+|3     |RAM_B         |         1|
+|4     |MIO_BUS       |         1|
+|5     |Multi_8CH32   |         1|
+|6     |SPIO          |         1|
+|7     |clk_div       |         1|
+|8     |SAnti_jitter  |         1|
+|9     |Counter_x     |         1|
+|10    |VGA           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |Counter_x_bbox    |     1|
+|2     |MIO_BUS_bbox      |     1|
+|3     |Multi_8CH32_bbox  |     1|
+|4     |RAM_B_bbox        |     1|
+|5     |ROM               |     1|
+|6     |SAnti_jitter_bbox |     1|
+|7     |SCPU_bbox         |     1|
+|8     |SPIO_bbox         |     1|
+|9     |VGA_bbox          |     1|
+|10    |clk_div_bbox      |     1|
+|11    |AND2              |     1|
+|12    |AND3              |    11|
+|13    |AND4              |     9|
+|14    |INV               |     5|
+|15    |LUT1              |     1|
+|16    |LUT3              |     8|
+|17    |LUT6              |    12|
+|18    |MUXF7             |     6|
+|19    |OR2               |     7|
+|20    |OR3               |     3|
+|21    |OR4               |     4|
+|22    |IBUF              |    22|
+|23    |OBUF              |    34|
++------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1475.602 ; gain = 588.535
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 1475.602 ; gain = 503.465
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 1475.602 ; gain = 588.535
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/RAM_B.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/RAM_B.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/MIO_BUS.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/MIO_BUS.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Multi_8CH32.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Multi_8CH32.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SPIO.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SPIO.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/clk_div.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/clk_div.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SAnti_jitter.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SAnti_jitter.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Counter_x.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Counter_x.edf]
+Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/VGA.edf]
+Finished Parsing EDIF File [D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/VGA.edf]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1475.602 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1113 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1475.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 296 instances were transformed.
+  AND2 => LUT2: 1 instance 
+  AND3 => LUT3: 11 instances
+  AND4 => LUT4: 9 instances
+  INV => LUT1: 5 instances
+  OR2 => LUT2: 7 instances
+  OR3 => LUT3: 3 instances
+  OR4 => LUT4: 4 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 128 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 128 instances
+
+Synth Design complete | Checksum: e0b41fe0
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:22 . Memory (MB): peak = 1475.602 ; gain = 985.977
+INFO: [Common 17-1381] The checkpoint 'D:/ZJUlesson/24Spring/CO/lab2/OExp02-IP2SOC/OExp02-IP2SOC.runs/synth_1/CSSTE.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CSSTE_utilization_synth.rpt -pb CSSTE_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 21 20:02:36 2024...

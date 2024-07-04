@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="soc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="soc_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="648.260 ns"></ZoomStartTime>
+      <ZoomEndTime time="924.461 ns"></ZoomEndTime>
+      <Cursor1Time time="815.860 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="231"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="107" />
+   <wave_markers>
+      <marker time="350000" label="" />
+      <marker time="409960" label="" />
+      <marker time="830000" label="" />
+      <marker time="750000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/soc_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Fetch/PC_in_IF" type="array">
+      <obj_property name="ElementShortName">PC_in_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_in_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/PC_out_IF" type="array">
+      <obj_property name="ElementShortName">PC_out_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/PC_out_ID" type="array">
+      <obj_property name="ElementShortName">PC_out_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/PC_in_EX" type="array">
+      <obj_property name="ElementShortName">PC_in_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_in_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/data_stall" type="logic">
+      <obj_property name="ElementShortName">data_stall</obj_property>
+      <obj_property name="ObjectShortName">data_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/control_stall" type="logic">
+      <obj_property name="ElementShortName">control_stall</obj_property>
+      <obj_property name="ObjectShortName">control_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/u2/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/en_IF" type="logic">
+      <obj_property name="ElementShortName">en_IF</obj_property>
+      <obj_property name="ObjectShortName">en_IF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Memory_Access/PCSrc" type="logic">
+      <obj_property name="ElementShortName">PCSrc</obj_property>
+      <obj_property name="ObjectShortName">PCSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Memory_Access/PCSrc" type="logic">
+      <obj_property name="ElementShortName">PCSrc</obj_property>
+      <obj_property name="ObjectShortName">PCSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/NOP_IFID" type="logic">
+      <obj_property name="ElementShortName">NOP_IFID</obj_property>
+      <obj_property name="ObjectShortName">NOP_IFID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/NOP_IDEX" type="logic">
+      <obj_property name="ElementShortName">NOP_IDEX</obj_property>
+      <obj_property name="ObjectShortName">NOP_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/ctrl_ID" type="logic">
+      <obj_property name="ElementShortName">ctrl_ID</obj_property>
+      <obj_property name="ObjectShortName">ctrl_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/ctrl_EX" type="logic">
+      <obj_property name="ElementShortName">ctrl_EX</obj_property>
+      <obj_property name="ObjectShortName">ctrl_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/ctrl_Mem" type="logic">
+      <obj_property name="ElementShortName">ctrl_Mem</obj_property>
+      <obj_property name="ObjectShortName">ctrl_Mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Fetch/en_IF" type="logic">
+      <obj_property name="ElementShortName">en_IF</obj_property>
+      <obj_property name="ObjectShortName">en_IF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Memory_Access/zero_in_Mem" type="logic">
+      <obj_property name="ElementShortName">zero_in_Mem</obj_property>
+      <obj_property name="ObjectShortName">zero_in_Mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Memory_Access/Branch_in_Mem" type="logic">
+      <obj_property name="ElementShortName">Branch_in_Mem</obj_property>
+      <obj_property name="ObjectShortName">Branch_in_Mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Memory_Access/BranchN_in_Mem" type="logic">
+      <obj_property name="ElementShortName">BranchN_in_Mem</obj_property>
+      <obj_property name="ObjectShortName">BranchN_in_Mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/Inst_in_ID" type="array">
+      <obj_property name="ElementShortName">Inst_in_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_in_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Ex_reg_Mem/PC_out_EXMem" type="array">
+      <obj_property name="ElementShortName">PC_out_EXMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_EXMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Ex_reg_Mem/PC4_out_EXMem" type="array">
+      <obj_property name="ElementShortName">PC4_out_EXMem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC4_out_EXMem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/u1/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/en_IF" type="logic">
+      <obj_property name="ElementShortName">en_IF</obj_property>
+      <obj_property name="ObjectShortName">en_IF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/en_IFID" type="logic">
+      <obj_property name="ElementShortName">en_IFID</obj_property>
+      <obj_property name="ObjectShortName">en_IFID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/NOP_IFID" type="logic">
+      <obj_property name="ElementShortName">NOP_IFID</obj_property>
+      <obj_property name="ObjectShortName">NOP_IFID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/NOP_IDEX" type="logic">
+      <obj_property name="ElementShortName">NOP_IDEX</obj_property>
+      <obj_property name="ObjectShortName">NOP_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/PCSrc" type="logic">
+      <obj_property name="ElementShortName">PCSrc</obj_property>
+      <obj_property name="ObjectShortName">PCSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Mem_reg_WB/DMem_data_out_MemWB" type="array">
+      <obj_property name="ElementShortName">DMem_data_out_MemWB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMem_data_out_MemWB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Write_Back/Data_out_WB" type="array">
+      <obj_property name="ElementShortName">Data_out_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/Wt_data_ID" type="array">
+      <obj_property name="ElementShortName">Wt_data_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wt_data_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/u2/register[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/t1" type="array">
+      <obj_property name="ElementShortName">t1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/t0" type="array">
+      <obj_property name="ElementShortName">t0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/u2/Rs1_addr" type="array">
+      <obj_property name="ElementShortName">Rs1_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/u2/Rs1_data" type="array">
+      <obj_property name="ElementShortName">Rs1_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/u2/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/Rs1_out_ID" type="array">
+      <obj_property name="ElementShortName">Rs1_out_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_out_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/u2/register[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/u2/Rs1_data" type="array">
+      <obj_property name="ElementShortName">Rs1_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ID_reg_Ex/Rs1_in_IDEx" type="array">
+      <obj_property name="ElementShortName">Rs1_in_IDEx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_in_IDEx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ID_reg_Ex/Rs1_out_IDEX" type="array">
+      <obj_property name="ElementShortName">Rs1_out_IDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_out_IDEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/Rd_addr_out_ID" type="array">
+      <obj_property name="ElementShortName">Rd_addr_out_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_addr_out_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/Rs1_out_ID" type="array">
+      <obj_property name="ElementShortName">Rs1_out_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_out_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Instruction_Decoder/Rs2_out_ID" type="array">
+      <obj_property name="ElementShortName">Rs2_out_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2_out_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/u1/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/u1/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/u1/control" type="array">
+      <obj_property name="ElementShortName">control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/u1/C" type="array">
+      <obj_property name="ElementShortName">C[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/rst_stall" type="logic">
+      <obj_property name="ElementShortName">rst_stall</obj_property>
+      <obj_property name="ObjectShortName">rst_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/RegWrite_out_IDEX" type="logic">
+      <obj_property name="ElementShortName">RegWrite_out_IDEX</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_out_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rd_addr_out_IDEX" type="array">
+      <obj_property name="ElementShortName">Rd_addr_out_IDEX[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_addr_out_IDEX[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/RegWrite_out_EXMem" type="logic">
+      <obj_property name="ElementShortName">RegWrite_out_EXMem</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_out_EXMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rd_addr_out_EXMem" type="array">
+      <obj_property name="ElementShortName">Rd_addr_out_EXMem[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_addr_out_EXMem[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs1_addr_ID" type="array">
+      <obj_property name="ElementShortName">Rs1_addr_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_addr_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs2_addr_ID" type="array">
+      <obj_property name="ElementShortName">Rs2_addr_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2_addr_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs1_used" type="logic">
+      <obj_property name="ElementShortName">Rs1_used</obj_property>
+      <obj_property name="ObjectShortName">Rs1_used</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs2_used" type="logic">
+      <obj_property name="ElementShortName">Rs2_used</obj_property>
+      <obj_property name="ObjectShortName">Rs2_used</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Branch_ID" type="logic">
+      <obj_property name="ElementShortName">Branch_ID</obj_property>
+      <obj_property name="ObjectShortName">Branch_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/BranchN_ID" type="logic">
+      <obj_property name="ElementShortName">BranchN_ID</obj_property>
+      <obj_property name="ObjectShortName">BranchN_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Jump_ID" type="logic">
+      <obj_property name="ElementShortName">Jump_ID</obj_property>
+      <obj_property name="ObjectShortName">Jump_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Branch_out_IDEX" type="logic">
+      <obj_property name="ElementShortName">Branch_out_IDEX</obj_property>
+      <obj_property name="ObjectShortName">Branch_out_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/BranchN_out_IDEX" type="logic">
+      <obj_property name="ElementShortName">BranchN_out_IDEX</obj_property>
+      <obj_property name="ObjectShortName">BranchN_out_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Jump_out_IDEX" type="logic">
+      <obj_property name="ElementShortName">Jump_out_IDEX</obj_property>
+      <obj_property name="ObjectShortName">Jump_out_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Branch_out_EXMem" type="logic">
+      <obj_property name="ElementShortName">Branch_out_EXMem</obj_property>
+      <obj_property name="ObjectShortName">Branch_out_EXMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/BranchN_out_EXMem" type="logic">
+      <obj_property name="ElementShortName">BranchN_out_EXMem</obj_property>
+      <obj_property name="ObjectShortName">BranchN_out_EXMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Jump_out_EXMem" type="logic">
+      <obj_property name="ElementShortName">Jump_out_EXMem</obj_property>
+      <obj_property name="ObjectShortName">Jump_out_EXMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/Imm_in_EX" type="array">
+      <obj_property name="ElementShortName">Imm_in_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm_in_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/PC_out_EX" type="array">
+      <obj_property name="ElementShortName">PC_out_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Execute/PC4_out_EX" type="array">
+      <obj_property name="ElementShortName">PC4_out_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC4_out_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/rst_stall" type="logic">
+      <obj_property name="ElementShortName">rst_stall</obj_property>
+      <obj_property name="ObjectShortName">rst_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/RegWrite_out_IDEX" type="logic">
+      <obj_property name="ElementShortName">RegWrite_out_IDEX</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_out_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rd_addr_out_IDEX" type="array">
+      <obj_property name="ElementShortName">Rd_addr_out_IDEX[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_addr_out_IDEX[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/RegWrite_out_EXMem" type="logic">
+      <obj_property name="ElementShortName">RegWrite_out_EXMem</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_out_EXMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rd_addr_out_EXMem" type="array">
+      <obj_property name="ElementShortName">Rd_addr_out_EXMem[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_addr_out_EXMem[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs1_addr_ID" type="array">
+      <obj_property name="ElementShortName">Rs1_addr_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_addr_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs2_addr_ID" type="array">
+      <obj_property name="ElementShortName">Rs2_addr_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2_addr_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs1_used" type="logic">
+      <obj_property name="ElementShortName">Rs1_used</obj_property>
+      <obj_property name="ObjectShortName">Rs1_used</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs2_used" type="logic">
+      <obj_property name="ElementShortName">Rs2_used</obj_property>
+      <obj_property name="ObjectShortName">Rs2_used</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Branch_ID" type="logic">
+      <obj_property name="ElementShortName">Branch_ID</obj_property>
+      <obj_property name="ObjectShortName">Branch_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/BranchN_ID" type="logic">
+      <obj_property name="ElementShortName">BranchN_ID</obj_property>
+      <obj_property name="ObjectShortName">BranchN_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Jump_ID" type="logic">
+      <obj_property name="ElementShortName">Jump_ID</obj_property>
+      <obj_property name="ObjectShortName">Jump_ID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Branch_out_IDEX" type="logic">
+      <obj_property name="ElementShortName">Branch_out_IDEX</obj_property>
+      <obj_property name="ObjectShortName">Branch_out_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/BranchN_out_IDEX" type="logic">
+      <obj_property name="ElementShortName">BranchN_out_IDEX</obj_property>
+      <obj_property name="ObjectShortName">BranchN_out_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Jump_out_IDEX" type="logic">
+      <obj_property name="ElementShortName">Jump_out_IDEX</obj_property>
+      <obj_property name="ObjectShortName">Jump_out_IDEX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Branch_out_EXMem" type="logic">
+      <obj_property name="ElementShortName">Branch_out_EXMem</obj_property>
+      <obj_property name="ObjectShortName">Branch_out_EXMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/BranchN_out_EXMem" type="logic">
+      <obj_property name="ElementShortName">BranchN_out_EXMem</obj_property>
+      <obj_property name="ObjectShortName">BranchN_out_EXMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Jump_out_EXMem" type="logic">
+      <obj_property name="ElementShortName">Jump_out_EXMem</obj_property>
+      <obj_property name="ObjectShortName">Jump_out_EXMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/data_stall" type="logic">
+      <obj_property name="ElementShortName">data_stall</obj_property>
+      <obj_property name="ObjectShortName">data_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/control_stall" type="logic">
+      <obj_property name="ElementShortName">control_stall</obj_property>
+      <obj_property name="ObjectShortName">control_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Addr_out" type="array">
+      <obj_property name="ElementShortName">Addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/inst_IF" type="array">
+      <obj_property name="ElementShortName">inst_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Addr_out" type="array">
+      <obj_property name="ElementShortName">Addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Data_out" type="array">
+      <obj_property name="ElementShortName">Data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Data_out_WB" type="array">
+      <obj_property name="ElementShortName">Data_out_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/MemRW_Mem" type="logic">
+      <obj_property name="ElementShortName">MemRW_Mem</obj_property>
+      <obj_property name="ObjectShortName">MemRW_Mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/MemRW_EX" type="logic">
+      <obj_property name="ElementShortName">MemRW_EX</obj_property>
+      <obj_property name="ObjectShortName">MemRW_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/MemtoReg_MemWB_WB" type="array">
+      <obj_property name="ElementShortName">MemtoReg_MemWB_WB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_MemWB_WB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs2_used" type="logic">
+      <obj_property name="ElementShortName">Rs2_used</obj_property>
+      <obj_property name="ObjectShortName">Rs2_used</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/ustall/Rs1_used" type="logic">
+      <obj_property name="ElementShortName">Rs1_used</obj_property>
+      <obj_property name="ObjectShortName">Rs1_used</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Rd_addr_ID_IDEX" type="array">
+      <obj_property name="ElementShortName">Rd_addr_ID_IDEX[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_addr_ID_IDEX[4:0]</obj_property>
+   </wvobject>
+</wave_config>

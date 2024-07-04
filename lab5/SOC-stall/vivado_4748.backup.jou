@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed May 22 10:35:21 2024
+# Process ID: 4748
+# Current directory: D:/ZJUlesson/24Spring/CO/lab5/SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18656 D:\ZJUlesson\24Spring\CO\lab5\SOC\OExp02-IP2SOC.xpr
+# Log file: D:/ZJUlesson/24Spring/CO/lab5/SOC/vivado.log
+# Journal file: D:/ZJUlesson/24Spring/CO/lab5/SOC\vivado.jou
+# Running On: LAPTOP-24U2CQ3S, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16892 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZJUlesson/24Spring/CO/lab5/SOC/OExp02-IP2SOC.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1

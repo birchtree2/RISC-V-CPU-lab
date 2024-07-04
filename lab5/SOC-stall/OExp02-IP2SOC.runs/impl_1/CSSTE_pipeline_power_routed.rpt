@@ -1,0 +1,303 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date             : Thu Jun  6 19:32:48 2024
+| Host             : LAPTOP-24U2CQ3S running 64-bit major release  (build 9200)
+| Command          : report_power -file CSSTE_pipeline_power_routed.rpt -pb CSSTE_pipeline_power_summary_routed.pb -rpx CSSTE_pipeline_power_routed.rpx
+| Design           : CSSTE_pipeline
+| Device           : xc7a100tcsg324-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+----------------------------------+
+| Total On-Chip Power (W)  | 60.813 (Junction temp exceeded!) |
+| Design Power Budget (W)  | Unspecified*                     |
+| Power Budget Margin (W)  | NA                               |
+| Dynamic (W)              | 60.016                           |
+| Device Static (W)        | 0.797                            |
+| Effective TJA (C/W)      | 4.6                              |
+| Max Ambient (C)          | 0.0                              |
+| Junction Temperature (C) | 125.0                            |
+| Confidence Level         | Low                              |
+| Setting File             | ---                              |
+| Simulation Activity File | ---                              |
+| Design Nets Matched      | NA                               |
++--------------------------+----------------------------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Slice Logic              |    10.365 |     7059 |       --- |             --- |
+|   LUT as Logic           |     9.245 |     3599 |     63400 |            5.68 |
+|   CARRY4                 |     0.417 |      101 |     15850 |            0.64 |
+|   Register               |     0.271 |     1920 |    126800 |            1.51 |
+|   LUT as Distributed RAM |     0.225 |      636 |     19000 |            3.35 |
+|   F7/F8 Muxes            |     0.165 |      575 |     63400 |            0.91 |
+|   BUFG                   |     0.041 |        6 |        32 |           18.75 |
+|   Others                 |     0.000 |       23 |       --- |             --- |
+| Signals                  |    20.336 |     5378 |       --- |             --- |
+| Block RAM                |     0.129 |        1 |       135 |            0.74 |
+| I/O                      |    29.186 |       64 |       210 |           30.48 |
+| Static Power             |     0.797 |          |           |                 |
+| Total                    |    60.813 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Vccint    |       1.000 |    31.451 |      30.888 |      0.563 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     1.160 |       1.067 |      0.093 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     8.246 |       8.242 |      0.004 |       NA    | Unspecified | NA         |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.028 |       0.010 |      0.018 |       NA    | Unspecified | NA         |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 4.6                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.6                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++--------------------------------------+-----------+
+| Name                                 | Power (W) |
++--------------------------------------+-----------+
+| CSSTE_pipeline                       |    60.016 |
+|   u1                                 |    10.646 |
+|     Ex_reg_Mem                       |     0.731 |
+|     Execute                          |     0.516 |
+|       u1                             |     0.516 |
+|     ID_reg_Ex                        |     1.755 |
+|     IF_reg_ID                        |     0.590 |
+|     Instruction_Decoder              |     1.184 |
+|       u2                             |     1.184 |
+|     Instruction_Fetch                |     1.029 |
+|     Mem_reg_WB                       |     0.586 |
+|     Write_Back                       |     4.256 |
+|   u10                                |     1.652 |
+|   u11                                |    15.128 |
+|     vga_controller                   |     1.547 |
+|     vga_debugger                     |    10.466 |
+|     vga_display                      |     3.115 |
+|       display_data_reg_0_63_0_2      |     0.004 |
+|       display_data_reg_0_63_3_5      |     0.002 |
+|       display_data_reg_1024_1087_0_2 |     0.004 |
+|       display_data_reg_1024_1087_3_5 |     0.001 |
+|       display_data_reg_1088_1151_0_2 |     0.004 |
+|       display_data_reg_1088_1151_6_7 |     0.001 |
+|       display_data_reg_1152_1215_0_2 |     0.004 |
+|       display_data_reg_1152_1215_3_5 |     0.002 |
+|       display_data_reg_1216_1279_0_2 |     0.006 |
+|       display_data_reg_1216_1279_3_5 |     0.002 |
+|       display_data_reg_1280_1343_0_2 |     0.004 |
+|       display_data_reg_1280_1343_3_5 |     0.001 |
+|       display_data_reg_128_191_0_2   |     0.004 |
+|       display_data_reg_128_191_3_5   |     0.001 |
+|       display_data_reg_1344_1407_0_2 |     0.005 |
+|       display_data_reg_1344_1407_3_5 |     0.002 |
+|       display_data_reg_1408_1471_0_2 |     0.004 |
+|       display_data_reg_1408_1471_3_5 |     0.001 |
+|       display_data_reg_1472_1535_0_2 |     0.004 |
+|       display_data_reg_1472_1535_3_5 |     0.001 |
+|       display_data_reg_1536_1599_0_2 |     0.004 |
+|       display_data_reg_1536_1599_3_5 |     0.002 |
+|       display_data_reg_1600_1663_0_2 |     0.004 |
+|       display_data_reg_1600_1663_3_5 |     0.002 |
+|       display_data_reg_1664_1727_0_2 |     0.004 |
+|       display_data_reg_1664_1727_3_5 |     0.001 |
+|       display_data_reg_1728_1791_0_2 |     0.003 |
+|       display_data_reg_1728_1791_3_5 |     0.001 |
+|       display_data_reg_1792_1855_0_2 |     0.004 |
+|       display_data_reg_1792_1855_3_5 |     0.001 |
+|       display_data_reg_1856_1919_0_2 |     0.004 |
+|       display_data_reg_1856_1919_3_5 |     0.001 |
+|       display_data_reg_1920_1983_0_2 |     0.004 |
+|       display_data_reg_1920_1983_3_5 |     0.002 |
+|       display_data_reg_192_255_0_2   |     0.005 |
+|       display_data_reg_192_255_3_5   |     0.002 |
+|       display_data_reg_1984_2047_0_2 |     0.005 |
+|       display_data_reg_1984_2047_3_5 |     0.002 |
+|       display_data_reg_2048_2111_0_2 |     0.004 |
+|       display_data_reg_2048_2111_3_5 |     0.001 |
+|       display_data_reg_2112_2175_0_2 |     0.004 |
+|       display_data_reg_2112_2175_3_5 |     0.002 |
+|       display_data_reg_2176_2239_0_2 |     0.005 |
+|       display_data_reg_2240_2303_0_2 |     0.003 |
+|       display_data_reg_2240_2303_3_5 |     0.002 |
+|       display_data_reg_2304_2367_0_2 |     0.004 |
+|       display_data_reg_2304_2367_3_5 |     0.001 |
+|       display_data_reg_2368_2431_0_2 |     0.004 |
+|       display_data_reg_2368_2431_3_5 |     0.001 |
+|       display_data_reg_2432_2495_0_2 |     0.004 |
+|       display_data_reg_2432_2495_3_5 |     0.001 |
+|       display_data_reg_2496_2559_0_2 |     0.005 |
+|       display_data_reg_2496_2559_3_5 |     0.001 |
+|       display_data_reg_2560_2623_0_2 |     0.004 |
+|       display_data_reg_2560_2623_3_5 |     0.001 |
+|       display_data_reg_256_319_0_2   |     0.003 |
+|       display_data_reg_256_319_3_5   |     0.002 |
+|       display_data_reg_2624_2687_0_2 |     0.004 |
+|       display_data_reg_2624_2687_3_5 |     0.001 |
+|       display_data_reg_2688_2751_0_2 |     0.004 |
+|       display_data_reg_2688_2751_3_5 |     0.002 |
+|       display_data_reg_2752_2815_0_2 |     0.005 |
+|       display_data_reg_2752_2815_3_5 |     0.002 |
+|       display_data_reg_2816_2879_0_2 |     0.004 |
+|       display_data_reg_2816_2879_3_5 |     0.001 |
+|       display_data_reg_2880_2943_0_2 |     0.004 |
+|       display_data_reg_2880_2943_3_5 |     0.002 |
+|       display_data_reg_2944_3007_0_2 |     0.004 |
+|       display_data_reg_2944_3007_3_5 |     0.001 |
+|       display_data_reg_3008_3071_0_2 |     0.004 |
+|       display_data_reg_3008_3071_3_5 |     0.002 |
+|       display_data_reg_3072_3135_0_2 |     0.004 |
+|       display_data_reg_3072_3135_3_5 |     0.001 |
+|       display_data_reg_3136_3199_0_2 |     0.004 |
+|       display_data_reg_3136_3199_3_5 |     0.001 |
+|       display_data_reg_3200_3263_0_2 |     0.004 |
+|       display_data_reg_3200_3263_3_5 |     0.001 |
+|       display_data_reg_320_383_0_2   |     0.005 |
+|       display_data_reg_320_383_3_5   |     0.002 |
+|       display_data_reg_3264_3327_0_2 |     0.004 |
+|       display_data_reg_3264_3327_3_5 |     0.001 |
+|       display_data_reg_3328_3391_0_2 |     0.004 |
+|       display_data_reg_3328_3391_3_5 |     0.001 |
+|       display_data_reg_3392_3455_0_2 |     0.004 |
+|       display_data_reg_3392_3455_3_5 |     0.001 |
+|       display_data_reg_3456_3519_0_2 |     0.004 |
+|       display_data_reg_3456_3519_3_5 |     0.002 |
+|       display_data_reg_3520_3583_0_2 |     0.004 |
+|       display_data_reg_3520_3583_3_5 |     0.001 |
+|       display_data_reg_3584_3647_0_2 |     0.005 |
+|       display_data_reg_3584_3647_3_5 |     0.001 |
+|       display_data_reg_3648_3711_0_2 |     0.005 |
+|       display_data_reg_3648_3711_3_5 |     0.001 |
+|       display_data_reg_3712_3775_0_2 |     0.004 |
+|       display_data_reg_3712_3775_3_5 |     0.002 |
+|       display_data_reg_3776_3839_0_2 |     0.004 |
+|       display_data_reg_3776_3839_3_5 |     0.001 |
+|       display_data_reg_3840_3903_0_2 |     0.005 |
+|       display_data_reg_3840_3903_3_5 |     0.002 |
+|       display_data_reg_384_447_0_2   |     0.004 |
+|       display_data_reg_384_447_3_5   |     0.001 |
+|       display_data_reg_3904_3967_0_2 |     0.004 |
+|       display_data_reg_3904_3967_3_5 |     0.001 |
+|       display_data_reg_3968_4031_0_2 |     0.005 |
+|       display_data_reg_3968_4031_3_5 |     0.001 |
+|       display_data_reg_4032_4095_0_2 |     0.004 |
+|       display_data_reg_4032_4095_3_5 |     0.001 |
+|       display_data_reg_448_511_0_2   |     0.004 |
+|       display_data_reg_448_511_3_5   |     0.001 |
+|       display_data_reg_512_575_0_2   |     0.004 |
+|       display_data_reg_512_575_3_5   |     0.001 |
+|       display_data_reg_576_639_0_2   |     0.004 |
+|       display_data_reg_576_639_3_5   |     0.001 |
+|       display_data_reg_640_703_0_2   |     0.005 |
+|       display_data_reg_640_703_6_7   |     0.001 |
+|       display_data_reg_64_127_0_2    |     0.005 |
+|       display_data_reg_64_127_3_5    |     0.001 |
+|       display_data_reg_704_767_0_2   |     0.004 |
+|       display_data_reg_704_767_3_5   |     0.002 |
+|       display_data_reg_768_831_0_2   |     0.004 |
+|       display_data_reg_768_831_3_5   |     0.001 |
+|       display_data_reg_832_895_0_2   |     0.005 |
+|       display_data_reg_832_895_3_5   |     0.002 |
+|       display_data_reg_896_959_0_2   |     0.005 |
+|       display_data_reg_896_959_3_5   |     0.002 |
+|       display_data_reg_960_1023_0_2  |     0.004 |
+|       display_data_reg_960_1023_3_5  |     0.001 |
+|   u2                                 |     0.285 |
+|     U0                               |     0.285 |
+|       synth_options.dist_mem_inst    |     0.285 |
+|   u3                                 |     0.321 |
+|     U0                               |     0.321 |
+|       inst_blk_mem_gen               |     0.321 |
+|   u4                                 |     0.707 |
+|   u5                                 |     0.562 |
+|   u6                                 |     0.675 |
+|     U2                               |     0.675 |
+|   u8                                 |     0.336 |
+|   u9                                 |     0.058 |
+|     u1                               |     0.058 |
++--------------------------------------+-----------+
+
+

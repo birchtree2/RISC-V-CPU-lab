@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1715220093">
+  <File Type="ROUTE-PWR" Name="CSSTE_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="CSSTE.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="CSSTE_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="CSSTE_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="CSSTE.msk"/>
+  <File Type="ROUTE-CLK" Name="CSSTE_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="CSSTE.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CSSTE_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="CSSTE.bit"/>
+  <File Type="BG-DRC" Name="CSSTE.drc"/>
+  <File Type="BG-BGN" Name="CSSTE.bgn"/>
+  <File Type="BG-BIN" Name="CSSTE.bin"/>
+  <File Type="BITSTR-RBT" Name="CSSTE.rbt"/>
+  <File Type="BITSTR-NKY" Name="CSSTE.nky"/>
+  <File Type="BITSTR-BMM" Name="CSSTE_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="CSSTE.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CSSTE_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="CSSTE.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CSSTE_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CSSTE.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="CSSTE_soc.pdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="CSSTE.npi"/>
+  <File Type="OPT-DRC" Name="CSSTE_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="CSSTE.rbd"/>
+  <File Type="OPT-HWDEF" Name="CSSTE.hwdef"/>
+  <File Type="PLACE-IO" Name="CSSTE_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CSSTE_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CSSTE_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CSSTE_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CSSTE_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="CSSTE_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CSSTE_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="CSSTE_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="CSSTE_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CSSTE_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="CSSTE_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CSSTE_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CSSTE_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CSSTE_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CSSTE_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CSSTE_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CSSTE_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CSSTE_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CSSTE_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CSSTE_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="CSSTE_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="CSSTE_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="CSSTE_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CSSTE_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="CSSTE_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CSSTE_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CSSTE_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CSSTE_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CSSTE_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CSSTE_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CSSTE_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CSSTE_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="CSSTE_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CSSTE_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="CSSTE.pdi"/>
+  <File Type="PL-PDI-FILE" Name="CSSTE_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="CSSTE.rcfi"/>
+  <File Type="CFI_FILE" Name="CSSTE.cfi"/>
+  <File Type="RNPI_FILE" Name="CSSTE.rnpi"/>
+  <File Type="ROUTE-RQS" Name="CSSTE_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="CSSTE_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/IP/Counter_x.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/Counter_x.edf"/>
+        <Attr Name="ImportTime" Val="1709104422"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/SAnti_jitter.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/SAnti_jitter.edf"/>
+        <Attr Name="ImportTime" Val="1709184568"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/clk_div.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/clk_div.edf"/>
+        <Attr Name="ImportTime" Val="1709102392"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/SPIO.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/SPIO.edf"/>
+        <Attr Name="ImportTime" Val="1709469144"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/Multi_8CH32.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/Multi_8CH32.edf"/>
+        <Attr Name="ImportTime" Val="1709105728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/MIO_BUS.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/MIO_BUS.edf"/>
+        <Attr Name="ImportTime" Val="1709104940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../lab2/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/SCPU.edf"/>
+        <Attr Name="ImportTime" Val="1709468440"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/ALU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/Counter_x.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/Counter_x.v"/>
+        <Attr Name="ImportTime" Val="1709104350"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Defines.vh">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/DataPath.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v"/>
+        <Attr Name="ImportTime" Val="1709528562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Hex2Ascii.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/VGA/VGA.srcs/sources_1/new/Hex2Ascii.v"/>
+        <Attr Name="ImportTime" Val="1709185156"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/ImmGen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v"/>
+        <Attr Name="ImportTime" Val="1709473982"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/MIO_BUS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/MIO_BUS.v"/>
+        <Attr Name="ImportTime" Val="1709104910"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/Multi_8CH32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/Multi_8CH32.v"/>
+        <Attr Name="ImportTime" Val="1709105660"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/Regfile.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/SAnti_jitter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/SAnti_jitter.v"/>
+        <Attr Name="ImportTime" Val="1709184520"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/SCPU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/SCPU.v"/>
+        <Attr Name="ImportTime" Val="1709468418"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/SCPU_ctrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/SPIO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/SPIO.v"/>
+        <Attr Name="ImportTime" Val="1709469090"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../IPcore/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v"/>
+        <Attr Name="ImportTime" Val="1709528682"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VGA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/VGA/VGA.srcs/sources_1/new/VGA.v"/>
+        <Attr Name="ImportTime" Val="1709184872"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VgaController.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/VGA/VGA.srcs/sources_1/new/VgaController.v"/>
+        <Attr Name="ImportTime" Val="1709184964"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VgaDebugger.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/VGA/VGA.srcs/sources_1/new/VgaDebugger.v"/>
+        <Attr Name="ImportTime" Val="1709185066"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/VgaDisplay.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/VGA/VGA.srcs/sources_1/new/VgaDisplay.v"/>
+        <Attr Name="ImportTime" Val="1709185424"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1709102328"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CSSTE.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/socTest.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab4-0/lab4-0.srcs/sources_1/new/socTest.v"/>
+        <Attr Name="ImportTime" Val="1711855804"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/Reg32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IPcore/VGA/VGA.srcs/sources_1/new/VgaController.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../IPcore/VGA/VGA.srcs/sources_1/new/VgaController.v"/>
+        <Attr Name="ImportTime" Val="1709184964"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IPcore/VGA/VGA.srcs/sources_1/new/VgaDebugger.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../IPcore/VGA/VGA.srcs/sources_1/new/VgaDebugger.v"/>
+        <Attr Name="ImportTime" Val="1709185066"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IPcore/VGA/VGA.srcs/sources_1/new/VgaDisplay.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../IPcore/VGA/VGA.srcs/sources_1/new/VgaDisplay.v"/>
+        <Attr Name="ImportTime" Val="1709185424"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/RAM_B.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/RAM_B.edf"/>
+        <Attr Name="ImportTime" Val="1709107102"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/RAM_B.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建/OExp02-IP2SOC/IP/RAM_B.v"/>
+        <Attr Name="ImportTime" Val="1709107068"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/D_mem.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/I_mem_more.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/I_mem_INT.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CSSTE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/OExp02-IP2SOC/A7.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/A7.xdc"/>
+        <Attr Name="ImportTime" Val="1709534940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/CSSTE.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ROM"/>
+  <BlockFileSet Type="BlockSrcs" Name="RAM_B"/>
+</GenRun>

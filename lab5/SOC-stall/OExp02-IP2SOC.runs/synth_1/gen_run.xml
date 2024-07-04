@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1717673421" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/CSSTE.dcp">
+  <File Type="PA-TCL" Name="CSSTE_pipeline.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="CSSTE_pipeline_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="CSSTE_pipeline_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CSSTE_pipeline.vds"/>
+  <File Type="RDS-UTIL" Name="CSSTE_pipeline_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="CSSTE_pipeline_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="CSSTE_pipeline.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="CSSTE_pipeline_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="CSSTE_pipeline_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/clk_div.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/clk_div.edf"/>
+        <Attr Name="ImportTime" Val="1709102392"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/SPIO.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/SPIO.edf"/>
+        <Attr Name="ImportTime" Val="1709469144"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/SAnti_jitter.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/SAnti_jitter.edf"/>
+        <Attr Name="ImportTime" Val="1709184568"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/RAM_B/RAM_B.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/Multi_8CH32.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/Multi_8CH32.edf"/>
+        <Attr Name="ImportTime" Val="1709105728"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/MIO_BUS.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/MIO_BUS.edf"/>
+        <Attr Name="ImportTime" Val="1709104940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/Counter_x.edf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/Counter_x.edf"/>
+        <Attr Name="ImportTime" Val="1709104422"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_WB.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_WB.edf"/>
+        <Attr Name="ImportTime" Val="1709633260"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Mem_reg_WB.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Mem_reg_WB.edf"/>
+        <Attr Name="ImportTime" Val="1709634262"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_Mem.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_Mem.edf"/>
+        <Attr Name="ImportTime" Val="1709632946"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Ex_reg_Mem.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Ex_reg_Mem.edf"/>
+        <Attr Name="ImportTime" Val="1709633460"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_Ex.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_Ex.edf"/>
+        <Attr Name="ImportTime" Val="1709632698"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/ID_reg_Ex.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/ID_reg_Ex.edf"/>
+        <Attr Name="ImportTime" Val="1709633676"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_ID.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_ID.edf"/>
+        <Attr Name="ImportTime" Val="1709632276"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/IF_reg_ID.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/IF_reg_ID.edf"/>
+        <Attr Name="ImportTime" Val="1709634046"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_IF.edf">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_IF.edf"/>
+        <Attr Name="ImportTime" Val="1709631974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/Counter_x.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/Counter_x.v"/>
+        <Attr Name="ImportTime" Val="1709104350"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/DisplaySync.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v"/>
+        <Attr Name="ImportTime" Val="1709528562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Ex_reg_Mem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Ex_reg_Mem.v"/>
+        <Attr Name="ImportTime" Val="1709633430"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VGA/Hex2Ascii.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/VGA/Hex2Ascii.v"/>
+        <Attr Name="ImportTime" Val="1620887400"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/ID_reg_Ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/ID_reg_Ex.v"/>
+        <Attr Name="ImportTime" Val="1709633650"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/IF_reg_ID.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/IF_reg_ID.v"/>
+        <Attr Name="ImportTime" Val="1709634022"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/MC_14495.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v"/>
+        <Attr Name="ImportTime" Val="1709473982"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/MIO_BUS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/MIO_BUS.v"/>
+        <Attr Name="ImportTime" Val="1709104910"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Mem_reg_WB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Mem_reg_WB.v"/>
+        <Attr Name="ImportTime" Val="1709634230"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/Multi_8CH32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/Multi_8CH32.v"/>
+        <Attr Name="ImportTime" Val="1709105660"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PCPU.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_Ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_Ex.v"/>
+        <Attr Name="ImportTime" Val="1709632672"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_ID.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_ID.v"/>
+        <Attr Name="ImportTime" Val="1709632246"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_IF.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_IF.v"/>
+        <Attr Name="ImportTime" Val="1709631942"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_Mem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_Mem.v"/>
+        <Attr Name="ImportTime" Val="1709632914"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pipeline/Pipeline_WB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/CPU/pipeline/Pipeline_WB.v"/>
+        <Attr Name="ImportTime" Val="1709633232"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/SAnti_jitter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/SAnti_jitter.v"/>
+        <Attr Name="ImportTime" Val="1709184520"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/SPIO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/SPIO.v"/>
+        <Attr Name="ImportTime" Val="1709469090"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Seg7_Dev.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v"/>
+        <Attr Name="ImportTime" Val="1709528682"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VGA/VGA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/VGA/VGA.v"/>
+        <Attr Name="ImportTime" Val="1620889678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VGA/VgaController.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/VGA/VgaController.v"/>
+        <Attr Name="ImportTime" Val="1621147168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VGA/VgaDebugger.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/VGA/VgaDebugger.v"/>
+        <Attr Name="ImportTime" Val="1620887284"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/VGA/VgaDisplay.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/VGA/VgaDisplay.v"/>
+        <Attr Name="ImportTime" Val="1620889772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Supplementary/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../实验说明文档/lab5_0_流水线处理器集成/lab5_0_流水线处理器集成/IP/Supplementary/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1709102328"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Defines.vh">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CSSTE.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/D_mem.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/noHazard.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CSSTE_pipline.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Pipeline_CPU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/Regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v"/>
+        <Attr Name="ImportTime" Val="1714048924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/SCPU_ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1714105438"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/ImmGen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v"/>
+        <Attr Name="ImportTime" Val="1713410123"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/IP/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v"/>
+        <Attr Name="ImportTime" Val="1713441352"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/socTest.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../lab4/SOC/OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v"/>
+        <Attr Name="ImportTime" Val="1713443011"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stall.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/Hazard_Stall.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CSSTE_pipeline"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/OExp02-IP2SOC/A7.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/A7.xdc"/>
+        <Attr Name="ImportTime" Val="1709534940"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/CSSTE.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ROM"/>
+</GenRun>

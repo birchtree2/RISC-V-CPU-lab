@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu May 16 11:25:03 2024
+# Process ID: 15868
+# Current directory: D:/ZJUlesson/24Spring/CO/lab4/SOC-Int
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15008 D:\ZJUlesson\24Spring\CO\lab4\SOC-Int\OExp02-IP2SOC.xpr
+# Log file: D:/ZJUlesson/24Spring/CO/lab4/SOC-Int/vivado.log
+# Journal file: D:/ZJUlesson/24Spring/CO/lab4/SOC-Int\vivado.jou
+# Running On: LAPTOP-24U2CQ3S, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16892 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZJUlesson/24Spring/CO/lab4/SOC-Int/OExp02-IP2SOC.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC-Int/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC-Int/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC-Int/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/ZJUlesson/24Spring/CO/lab4/SOC-Int/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager

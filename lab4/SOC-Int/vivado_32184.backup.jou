@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed May  8 09:17:39 2024
+# Process ID: 32184
+# Current directory: D:/ZJUlesson/24Spring/CO/lab4/SOC-Int
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5236 D:\ZJUlesson\24Spring\CO\lab4\SOC-Int\Int.xpr
+# Log file: D:/ZJUlesson/24Spring/CO/lab4/SOC-Int/vivado.log
+# Journal file: D:/ZJUlesson/24Spring/CO/lab4/SOC-Int\vivado.jou
+# Running On: LAPTOP-24U2CQ3S, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16892 MB
+#-----------------------------------------------------------
+start_gui

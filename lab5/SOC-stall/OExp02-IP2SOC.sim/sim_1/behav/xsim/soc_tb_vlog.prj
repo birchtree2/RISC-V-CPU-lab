@@ -1,0 +1,42 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../OExp02-IP2SOC.srcs/sources_1/new" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/ROM/sim/ROM.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/RAM_B/sim/RAM_B.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/Counter_x.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/new/DisplaySync.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Ex_reg_Mem.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/VGA/Hex2Ascii.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/ID_reg_Ex.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/IF_reg_ID.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/new/MC_14495.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/MIO_BUS.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Mem_reg_WB.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/Multi_8CH32.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_Ex.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_ID.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_IF.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_Mem.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/pipeline/Pipeline_WB.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/SAnti_jitter.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/SPIO.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/new/Seg7_Dev.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/VGA/VGA.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/VGA/VgaController.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/VGA/VgaDebugger.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/VGA/VgaDisplay.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/clk_div.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/new/CSSTE_pipline.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/new/Pipeline_CPU.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/Regfile.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/SCPU_ctrl.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/ImmGen.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/IP/ALU.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/imports/new/socTest.v" \
+"../../../../OExp02-IP2SOC.srcs/sources_1/new/stall.v" \
+"../../../../OExp02-IP2SOC.srcs/sim_1/imports/new/soc_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

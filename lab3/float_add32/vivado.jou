@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Mar 28 20:05:44 2024
+# Process ID: 17788
+# Current directory: D:/ZJUlesson/24Spring/CO/lab3/float_add32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31688 D:\ZJUlesson\24Spring\CO\lab3\float_add32\float_add32.xpr
+# Log file: D:/ZJUlesson/24Spring/CO/lab3/float_add32/vivado.log
+# Journal file: D:/ZJUlesson/24Spring/CO/lab3/float_add32\vivado.jou
+# Running On: LAPTOP-24U2CQ3S, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16892 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/ZJUlesson/24Spring/CO/lab3/float_add32/float_add32.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/ZJUlesson/24Spring/CO/lab3/float_add32/float_add32_tb_behav.wcfg
+source float_add32_tb.tcl
+close_sim

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="float_add32_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="float_add32_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="329.170 ns"></ZoomStartTime>
+      <ZoomEndTime time="399.971 ns"></ZoomEndTime>
+      <Cursor1Time time="334.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="136"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/float_add32_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/fin" type="logic">
+      <obj_property name="ElementShortName">fin</obj_property>
+      <obj_property name="ObjectShortName">fin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/expa" type="array">
+      <obj_property name="ElementShortName">expa[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expa[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/expb" type="array">
+      <obj_property name="ElementShortName">expb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expb[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/expr" type="array">
+      <obj_property name="ElementShortName">expr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/fra" type="array">
+      <obj_property name="ElementShortName">fra[23:0]</obj_property>
+      <obj_property name="ObjectShortName">fra[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/frb" type="array">
+      <obj_property name="ElementShortName">frb[23:0]</obj_property>
+      <obj_property name="ObjectShortName">frb[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/frr" type="array">
+      <obj_property name="ElementShortName">frr[24:0]</obj_property>
+      <obj_property name="ObjectShortName">frr[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/signa" type="logic">
+      <obj_property name="ElementShortName">signa</obj_property>
+      <obj_property name="ObjectShortName">signa</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/signb" type="logic">
+      <obj_property name="ElementShortName">signb</obj_property>
+      <obj_property name="ObjectShortName">signb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/signr" type="logic">
+      <obj_property name="ElementShortName">signr</obj_property>
+      <obj_property name="ObjectShortName">signr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/float_add32_tb/uut/step" type="array">
+      <obj_property name="ElementShortName">step[1:0]</obj_property>
+      <obj_property name="ObjectShortName">step[1:0]</obj_property>
+   </wvobject>
+</wave_config>

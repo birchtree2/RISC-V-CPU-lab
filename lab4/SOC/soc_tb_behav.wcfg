@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="soc_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="soc_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="379.494 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,048.213 ns"></ZoomEndTime>
+      <Cursor1Time time="750.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="297"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wave_markers>
+      <marker time="20100" label="" />
+   </wave_markers>
+   <wvobject fp_name="/soc_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U2/PC_out" type="array">
+      <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U2/inst_field" type="array">
+      <obj_property name="ElementShortName">inst_field[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_field[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/OPcode" type="array">
+      <obj_property name="ElementShortName">OPcode[4:0]</obj_property>
+      <obj_property name="ObjectShortName">OPcode[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/ALUop" type="array">
+      <obj_property name="ElementShortName">ALUop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/Fun3" type="array">
+      <obj_property name="ElementShortName">Fun3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Fun3[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/Fun7" type="logic">
+      <obj_property name="ElementShortName">Fun7</obj_property>
+      <obj_property name="ObjectShortName">Fun7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/ImmSel" type="array">
+      <obj_property name="ElementShortName">ImmSel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmSel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/ALUSrc_B" type="logic">
+      <obj_property name="ElementShortName">ALUSrc_B</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/MemtoReg" type="array">
+      <obj_property name="ElementShortName">MemtoReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/Jump" type="array">
+      <obj_property name="ElementShortName">Jump[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Jump[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/BranchN" type="logic">
+      <obj_property name="ElementShortName">BranchN</obj_property>
+      <obj_property name="ObjectShortName">BranchN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/MemRW" type="logic">
+      <obj_property name="ElementShortName">MemRW</obj_property>
+      <obj_property name="ObjectShortName">MemRW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U1/ALU_Control" type="array">
+      <obj_property name="ElementShortName">ALU_Control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/U2/Reg/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/soc_tb/uut/u0/Addr_out" type="array">
+      <obj_property name="ElementShortName">Addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_out[31:0]</obj_property>
+   </wvobject>
+</wave_config>
